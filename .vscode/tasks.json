@@ -1,0 +1,23 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Run prj/main.py",
+      "type": "shell",
+      "command": "${workspaceFolder}/prj/.venv/Scripts/python.exe",
+      "args": [
+        "${workspaceFolder}/prj/main.py"
+      ],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "presentation": {
+        "reveal": "always",
+        "focus": false,
+        "panel": "shared"
+      },
+      "problemMatcher": []
+    }
+  ]
+}

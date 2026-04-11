@@ -1,0 +1,15 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Python: Run prj/main.py",
+      "type": "python",
+      "request": "launch",
+      "program": "${workspaceFolder}/prj/main.py",
+      "console": "integratedTerminal",
+      "cwd": "${workspaceFolder}/prj",
+      "env": {},
+      "justMyCode": true
+    }
+  ]
+}
