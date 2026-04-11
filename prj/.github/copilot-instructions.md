@@ -99,3 +99,8 @@ Before starting a new task in the above plan, update progress in the plan.
 - Work through each checklist item systematically.
 - Keep communication concise and focused.
 - Follow development best practices.
+## Design Guide
+- Prefer simple, readable Python code with standard library usage for this small app.
+- Keep project files minimal and avoid unnecessary dependencies.
+- Use clear step-by-step instructions when adding setup or run guidance.
+- Ensure any added VS Code configuration is specific to `prj/main.py` and the existing `.venv`. 
